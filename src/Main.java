@@ -14,7 +14,7 @@ public class Main {
             maxNum = num3;
         }
 
-        System.out.println("Max Number : " + maxNum );
+        System.out.println("Max Number maxx : " + maxNum );
 
     }
 }
