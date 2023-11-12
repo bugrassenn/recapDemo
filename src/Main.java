@@ -14,7 +14,27 @@ public class Main {
             maxNum = num3;
         }
 
-        System.out.println("Max Number => " + maxNum );
+        System.out.println("Max Number => " + maxNum);
+
+        // Switch - Case
+        char grade = 'F';
+
+
+        switch (grade) {
+            case 'A':
+                System.out.println("Perfect");
+                break;
+            case 'B':
+                System.out.println("Good");
+                break;
+            case 'C':
+                System.out.println("Bad");
+                break;
+            default:
+                System.out.println("Invalid Grade Entered");
+
+        }
+
 
     }
 }
